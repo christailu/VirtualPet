@@ -1,6 +1,6 @@
-#ifndef GATOMON_H
-#define GATOMON_H
 
+#define GATOMON_H
+
 #include "Digimon.h"
 
 class Gatomon : public Digimon {
@@ -8,9 +8,9 @@ class Gatomon : public Digimon {
 		int catClawSharpness;
 	public:
 		//constructor
-		Gatomon(const string& gatomonName, int Sharpness);
-		int getCatClawSharpeness();//getter
-		void useCatClawAttack();
+		Gatomon(const string& gatomonName,const string& Type, int Sharpness);
+		int getCatClawSharpeness() const;//getter
+		void useCatClawAttack() const;
 };
 
 #endif
