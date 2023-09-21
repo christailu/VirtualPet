@@ -1,4 +1,4 @@
-
+#ifndef GATOMON_H
 #define GATOMON_H
 
 #include "Digimon.h"
