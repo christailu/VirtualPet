@@ -5,12 +5,12 @@
 
 class Digimon : public VirtualPet {
 	private:
-		int element;
+		string element;
 	public:
 		//constructor
-		Digimon(const string& DigimonName, int ElementType);
+		Digimon(const string& DigimonName,const string& ElementType);
 		void useSpecialAttack();
-		int getElement() const;//getter
+		string getElement() const;//getter
 };
 
 #endif
