@@ -1,9 +1,9 @@
 #include "Gatomon.h"
 
 //constructor
-Gatomon::Gatomon(const stsring& gatomonName,const string& Type, int Sharpness):Digimon(gatomonName, Type){
-	happiness = 100;
-	hunger = 0;	
+Gatomon::Gatomon(const string& gatomonName,const string& Type, int Sharpness):Digimon(gatomonName, Type){
+	
+
 	catClawSharpness = Sharpness;
 
 }
