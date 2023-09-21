@@ -31,7 +31,7 @@ int main() {
 	MyDigimon.useSpecialAttack();
 
 	//create a Pikachu
-	Pikachu myPikachu("Pika", 80);
+	Pikachu myPikachu("Pika","Electric", 80);
 	myPikachu.useElectricShock();
 
 	//create a GAtomon
