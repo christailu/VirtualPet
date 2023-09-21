@@ -6,8 +6,12 @@
 class Pikachu : public Pokemon {
 	private:
 		int electricPower;
-		int useElectricShock;//only accessible by pikachu
+	
 	public:
 		//constructor
-		Pikachu(const string& PikachuName, const string& pikachuSpecies, 		 const int& PikaHealth, const int& electricPower);
+		Pikachu(const string& PikachuName, const int& LevelPower);
+		int getElectricPower() const;//getter for electric power
+		void useElectricShock();
 };
+
+#endif
