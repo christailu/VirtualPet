@@ -1,7 +1,7 @@
 #include "Digimon.h"
 
 //constructor
-Digimon::Digimon(const string& DigimonName, int ElementType):VirtualPet(DigimonName) {
+Digimon::Digimon(const string& DigimonName, string ElementType):VirtualPet(DigimonName) {
 	happiness = 100;
 	hunger = 0;
 	element = ElementType;
@@ -9,11 +9,11 @@ Digimon::Digimon(const string& DigimonName, int ElementType):VirtualPet(DigimonN
 }
 // methode to simulate a digimon attack
 void Digimon::useSpecialAttack() {
-	cout << "Digimon use Special Attack !!" <<endl;
+	cout << " use Special Attack !!" <<endl;
 } 
 
 //getter to get access to element
-int Digimon::getElement() const{
+string Digimon::getElement() const{
     return element;
 }
 
