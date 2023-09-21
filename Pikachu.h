@@ -9,7 +9,7 @@ class Pikachu : public Pokemon {
 	
 	public:
 		//constructor
-		Pikachu(const string& PikachuName, const int& LevelPower);
+		Pikachu(const string& PikachuName, const string& speciesName,  int LevelPower);
 		int getElectricPower() const;//getter for electric power
 		void useElectricShock();
 };
