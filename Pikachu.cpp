@@ -1,7 +1,7 @@
 using namespace std;
 #include "Pikachu.h"
 
-Pikachu::Pikachu(const string& PikachuName, const int& LevelPower)Pokemon(PikachuName, "Pikachu") {
+Pikachu::Pikachu(const string& PikachuName,const string& speciesName, int LevelPower)Pokemon(PikachuName, speciesName) {
 	electricPower = LevelPower;
 	health = 100;
 
